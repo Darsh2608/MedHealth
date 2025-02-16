@@ -1,0 +1,13 @@
+<app-home class="navbar"></app-home>
+<div>
+<dx-scheduler
+  timeZone="America/Los_Angeles"
+  [dataSource]="appointmentsData"
+  [views]="['week', 'month']"
+  currentView="week"
+  [currentDate]="currentDate"
+  [startDayHour]="12"
+  [height]="730"
+>
+</dx-scheduler>
+</div>

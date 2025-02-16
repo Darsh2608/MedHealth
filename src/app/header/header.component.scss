@@ -1,0 +1,229 @@
+/*Header*/
+
+.main-wrapper {
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}   
+.section-search {
+  background: #f9f9f9 no-repeat bottom center;
+  min-height: 450px;
+  background-size: 100% auto;
+  position: relative;
+  background-blend-mode: Darken;
+  padding: 140px 0;
+}
+
+.banner-wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+.banner-wrapper .banner-header {
+  margin-bottom: 30px;
+}
+.banner-wrapper .banner-header h1 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.banner-wrapper .banner-header p {
+  color: #757575;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.search-box form {
+  display: flex;
+}
+.search-box .form-control {
+  border: 1px solid #ccc;
+  box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075);
+  border-radius: 5px;
+  padding-left: 35px;
+}
+.search-box .search-location {
+  flex: 0 0 240px;
+  margin-right: 12px;
+  position: relative;
+  width: 240px;
+}
+
+.search-box .search-info {
+  flex: 0 0 490px;
+  margin-right: 12px;
+  position: relative;
+  width: 490px;
+}
+.search-box .search-btn {
+  width: 46px;
+  flex: 0 0 46px;
+  height: 46px;
+}
+.search-box .search-btn span {
+  display: none;
+  font-weight: 500;
+}
+.search-box .form-text {
+  color: #757575;
+  font-size: 13px;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.search-location .form-control {
+  background: #fff no-repeat 10px center;
+}
+
+.form-control {
+  border-color: #dcdcdc;
+  color: #333;
+  font-size: 15px;
+  min-height: 46px;
+  padding: 6px 15px;
+}
+
+.search-info .form-control {
+  background: #fff no-repeat 10px center;
+}
+
+.btn {
+  margin-bottom: 5px;
+  background-color: #11db68;
+  border: 1px solid #11db68;
+  color: #fff;
+  height: 46px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #097136;
+}
+
+/*Responsive css*/
+
+@media only screen and (max-width: 1199px) {
+  .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .banner-wrapper .banner-header h1 {
+    font-size: 28px;
+  }
+  .search-box form {
+    display: block;
+  }
+  .search-box .search-location {
+    width: 100%;
+    flex: none;
+  }
+  .search-box .search-info {
+    width: 100%;
+    flex: none;
+  }
+}
+
+@media only screen and (max-width: 991.98px) {
+  .section-search {
+    min-height: 330px;
+  }
+  .banner-wrapper {
+    max-width: 720px;
+  }
+  .banner-wrapper .banner-header h1 {
+    font-size: 2.125rem;
+  }
+  .search-box .search-info {
+    flex: 0 0 410px;
+    width: 410px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .section-search {
+    background: #f9f9f9;
+    padding: 100px 0;
+  }
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .banner-wrapper .banner-header h1 {
+    font-size: 2rem;
+  }
+  .banner-wrapper .banner-header p {
+    font-size: 1rem;
+  }
+  .search-box {
+    max-width: 535px;
+    margin: 0 auto;
+  }
+  .search-box form {
+    flex-direction: column;
+    word-wrap: break-word;
+    background-clip: border-box;
+  }
+  .search-box .search-location {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  .search-box .search-info {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  .search-box .search-btn {
+    flex: 0 0 100%;
+    min-height: 46px;
+    width: 100%;
+  }
+  .search-box .search-btn span {
+    display: inline-block;
+    margin-left: 5px;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .section-search {
+    min-height: 410px;
+    padding: 75px 15px;
+    background-image: none;
+  }
+
+}
+
+.search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.search-suggestions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-suggestions li:hover {
+  background-color: #f2f2f2;
+}

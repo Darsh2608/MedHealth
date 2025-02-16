@@ -1,0 +1,23 @@
+<app-home></app-home>
+<div *ngIf="appointmentData">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12" *ngFor="let appointment of appointmentData; let i = index" style="margin-top: 75px;">
+      <div class="card mb-4" [style.margin-top.px]="i < 3 ? 20 : 0">
+        <div class="card-header">
+          {{ appointment.patient_name }}'s Appointment
+        </div>
+        <div class="card-body">
+          <p><strong>Phone Number:</strong> {{ appointment.phone_number }}</p>
+          <p><strong>Email:</strong> {{ appointment.email }}</p>
+          <p><strong>Gender:</strong> {{ appointment.gender }}</p>
+          <p><strong>Hospital Name:</strong> {{ appointment.hospital_name }}</p>
+          <p><strong>Consulting:</strong> {{ appointment.consulting }}</p>
+          <p><strong>Services:</strong> {{ appointment.services }}</p>
+          <p><strong>Appointment Date:</strong> {{ appointment.appointment_date }}</p>
+          <p><strong>Appointment Time:</strong> {{ appointment.appointment_time }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

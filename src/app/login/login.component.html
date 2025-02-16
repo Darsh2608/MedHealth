@@ -1,0 +1,68 @@
+<app-home></app-home>
+<body>
+    <div class="row vh-100 g-0">
+      <!--Left Side-->
+      <div class="col-lg-6 position-relative d-none d-lg-block">
+        <div
+          class="bg-holder"
+          style="background-image: url(../assets/img/banner-bg.jpg)"
+        ></div>
+      </div>
+      <!--/Left Side-->
+      <!--Right side-->
+      <div class="col-lg-6" id="rightside">
+          <div class="row align-items-center justify-content-center h-100 g-0 px-4 px-sm-0">
+              <div class="col col-sm-6 col-lg-7 col-xl-6">
+                  <!--logo-->
+                  <!--/logo-->
+                  <div class="text-center mb-6">
+                      <h2 class="fw-bold">Log In</h2>
+                      <p class="text-secondary">Get access to your account</p>
+                  </div>
+                  <!--Social Login-->
+                  <button class="btn btn-lg btn-outline-danger w-100 mb-3">
+                      <i class="fa-brands fa-google me-2 fs-6"></i> Login with Google
+                  </button>
+                  <button class="btn btn-lg btn-outline-primary w-100">
+                      <i class="fa-brands fa-facebook me-2 fs-6"></i> Login with Facebook
+                  </button>
+                  <!--/Social Login-->
+                  <!--Divider-->
+                  <div class="position-relative">
+                      <hr class="text-dark divider">
+                      <div class="divider-content-center">Or</div>
+                  </div>
+                  <!--/Divider-->
+                  <!--form-->
+                  <form action="#">
+                      <div class="input-group mb-3">
+        <span class="input-group-text">
+            <i class="fa-regular fa-user"></i>
+        </span>
+                          <input id="username" type="text" class="form-control form-control-lg fs-6" placeholder="Username">
+                      </div>
+                      <div class="input-group mb-3">
+        <span class="input-group-text">
+            <i class="fa-solid fa-lock"></i>
+        </span>
+                          <input id="password" type="password" class="form-control form-control-lg fs-6" placeholder="Password">
+                      </div>
+                      <div class="input-group mb-3 d-flex justify-content-between">
+                          <div>
+                              <small><a href="">Forgot Password?</a></small>
+                          </div>
+                      </div>
+                      <button class="btn btn-primary btn-lg w-100 mb-3" (click)="login()">Login</button>
+                  </form>
+
+                  <!--/form-->
+                  <div class="text-center">
+                      <small>Don't have an account? <a href="/register" class="fw-bold">Register</a></small>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--/right side-->
+    </div>
+  </body>
+  <app-footer></app-footer>

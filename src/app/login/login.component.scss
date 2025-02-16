@@ -1,0 +1,47 @@
+#rightside{
+  margin-bottom: -30px;
+}
+.btn {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.bg-holder {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.divider-content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.divider {
+  margin: 2rem 0;
+}
+
+.image{
+    background-color: white;
+}

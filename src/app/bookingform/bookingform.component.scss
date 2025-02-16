@@ -1,0 +1,37 @@
+body {
+    background-color: #a2d4c4;
+    padding-top: 60px;
+  }
+  
+  .booking-form {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: 600;
+  }
+  
+  .btn-submit {
+    background-color: #a2d4c4;
+    border: 1px solid #476681;
+    color: #162640;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #162640;
+    color: #a2d4c4;
+    border: #162640;
+  }
+  

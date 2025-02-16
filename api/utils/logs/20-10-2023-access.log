@@ -1,0 +1,512 @@
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.module_name desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT COUNT(iel.id) as count FROM integration_error_logs as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.created_at desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.created_at desc "}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT COUNT(iel.id) as count FROM integration_error_logs as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.created_at desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.created_at desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"Upload error: file undefined-------------photo"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"Upload error: file undefined-------------photo"}
+{"level":"info","message":"========== { client_id: '40', loadData: false } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"Upload error: file undefined-------------photo"}
+{"level":"info","message":"========== { client_id: '40', loadData: false } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"TypeError: Cannot read properties of null (reading 'module_json')\n    at /home/jahnavi.bhagat@hs.local/projects/panteon/tasklineV3/api/utils/function.js:604:61\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.createLoggedUserData (/home/jahnavi.bhagat@hs.local/projects/panteon/tasklineV3/api/utils/function.js:584:9)\n    at async /home/jahnavi.bhagat@hs.local/projects/panteon/tasklineV3/api/controllers/auth.controller.js:93:21"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"TypeError: Cannot read properties of null (reading 'module_json')\n    at /home/jahnavi.bhagat@hs.local/projects/panteon/tasklineV3/api/utils/function.js:604:61\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.createLoggedUserData (/home/jahnavi.bhagat@hs.local/projects/panteon/tasklineV3/api/utils/function.js:584:9)\n    at async /home/jahnavi.bhagat@hs.local/projects/panteon/tasklineV3/api/controllers/auth.controller.js:93:21"}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"+++++++++++++++++++++++++1111 null"}
+{"level":"info","message":"TypeError: Cannot read properties of null (reading 'module_json')\n    at /home/jahnavi.bhagat@hs.local/projects/panteon/tasklineV3/api/utils/function.js:605:61\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.createLoggedUserData (/home/jahnavi.bhagat@hs.local/projects/panteon/tasklineV3/api/utils/function.js:584:9)\n    at async /home/jahnavi.bhagat@hs.local/projects/panteon/tasklineV3/api/controllers/auth.controller.js:93:21"}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"+++++++++++++++++++++++++1111 null"}
+{"level":"info","message":"+++++++++++++++++++++++++222222222222 UserProfile {\n  dataValues: {\n    id: 6145,\n    user_id: 6079,\n    role_id: 3,\n    client_id: 24,\n    company_id: null,\n    name: 'Cathrine Svarstad Pettersen',\n    email: 'csp@duopluss.no',\n    photo: 'photo-1661099904199.jpg',\n    s3_upload: true,\n    mobile: '90928826',\n    comment: '',\n    has_view_access: false,\n    is_admin: true,\n    allowed_add_company: false,\n    sent_verification: '0',\n    is_verified: false,\n    master_review_rule_id: null,\n    allowed_review_rule: 1,\n    contact_person_role: null,\n    created_at: 2022-08-21T16:31:07.000Z,\n    updated_at: 2022-08-23T04:18:35.000Z,\n    deleted_at: null,\n    bgcolor: '#9ace5f',\n    fontcolor: '#67982e',\n    initials: 'CP',\n    deleted_by: null,\n    archive_flag: false,\n    archive_at: null,\n    size: null,\n    default_hours: null,\n    has_permission_for_timesheet_review: false,\n    efficiency_level: 100,\n    skip_approval: false,\n    RoleId: 3,\n    ClientId: 24,\n    CompanyId: null,\n    CompanyAccountants: [\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants]\n    ]\n  },\n  _previousDataValues: {\n    id: 6145,\n    user_id: 6079,\n    role_id: 3,\n    client_id: 24,\n    company_id: null,\n    name: 'Cathrine Svarstad Pettersen',\n    email: 'csp@duopluss.no',\n    photo: 'photo-1661099904199.jpg',\n    s3_upload: true,\n    mobile: '90928826',\n    comment: '',\n    has_view_access: false,\n    is_admin: true,\n    allowed_add_company: false,\n    sent_verification: '0',\n    is_verified: false,\n    master_review_rule_id: null,\n    allowed_review_rule: 1,\n    contact_person_role: null,\n    created_at: 2022-08-21T16:31:07.000Z,\n    updated_at: 2022-08-23T04:18:35.000Z,\n    deleted_at: null,\n    bgcolor: '#9ace5f',\n    fontcolor: '#67982e',\n    initials: 'CP',\n    deleted_by: null,\n    archive_flag: false,\n    archive_at: null,\n    size: null,\n    default_hours: null,\n    has_permission_for_timesheet_review: false,\n    efficiency_level: 100,\n    skip_approval: false,\n    RoleId: 3,\n    ClientId: 24,\n    CompanyId: null,\n    CompanyAccountants: [\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants]\n    ]\n  },\n  uniqno: 1,\n  _changed: Set(0) {},\n  _options: {\n    isNewRecord: false,\n    _schema: null,\n    _schemaDelimiter: '',\n    include: [ [Object] ],\n    includeNames: [ 'CompanyAccountants' ],\n    includeMap: { CompanyAccountants: [Object] },\n    includeValidated: true,\n    attributes: [\n      'id',\n      'user_id',\n      'role_id',\n      'client_id',\n      'company_id',\n      'name',\n      'email',\n      'photo',\n      's3_upload',\n      'mobile',\n      'comment',\n      'has_view_access',\n      'is_admin',\n      'allowed_add_company',\n      'sent_verification',\n      'is_verified',\n      'master_review_rule_id',\n      'allowed_review_rule',\n      'contact_person_role',\n      'created_at',\n      'updated_at',\n      'deleted_at',\n      'bgcolor',\n      'fontcolor',\n      'initials',\n      'deleted_by',\n      'archive_flag',\n      'archive_at',\n      'size',\n      'default_hours',\n      'has_permission_for_timesheet_review',\n      'efficiency_level',\n      'skip_approval',\n      'RoleId',\n      'ClientId',\n      'CompanyId'\n    ],\n    raw: true\n  },\n  isNewRecord: false,\n  CompanyAccountants: [\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    }\n  ]\n}"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"+++++++++++++++++++++++++1111 null"}
+{"level":"info","message":"+++++++++++++++++++++++++222222222222 UserProfile {\n  dataValues: {\n    id: 6145,\n    user_id: 6079,\n    role_id: 3,\n    client_id: 24,\n    company_id: null,\n    name: 'Cathrine Svarstad Pettersen',\n    email: 'csp@duopluss.no',\n    photo: 'photo-1661099904199.jpg',\n    s3_upload: true,\n    mobile: '90928826',\n    comment: '',\n    has_view_access: false,\n    is_admin: true,\n    allowed_add_company: false,\n    sent_verification: '0',\n    is_verified: false,\n    master_review_rule_id: null,\n    allowed_review_rule: 1,\n    contact_person_role: null,\n    created_at: 2022-08-21T16:31:07.000Z,\n    updated_at: 2022-08-23T04:18:35.000Z,\n    deleted_at: null,\n    bgcolor: '#9ace5f',\n    fontcolor: '#67982e',\n    initials: 'CP',\n    deleted_by: null,\n    archive_flag: false,\n    archive_at: null,\n    size: null,\n    default_hours: null,\n    has_permission_for_timesheet_review: false,\n    efficiency_level: 100,\n    skip_approval: false,\n    RoleId: 3,\n    ClientId: 24,\n    CompanyId: null,\n    CompanyAccountants: [\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants]\n    ]\n  },\n  _previousDataValues: {\n    id: 6145,\n    user_id: 6079,\n    role_id: 3,\n    client_id: 24,\n    company_id: null,\n    name: 'Cathrine Svarstad Pettersen',\n    email: 'csp@duopluss.no',\n    photo: 'photo-1661099904199.jpg',\n    s3_upload: true,\n    mobile: '90928826',\n    comment: '',\n    has_view_access: false,\n    is_admin: true,\n    allowed_add_company: false,\n    sent_verification: '0',\n    is_verified: false,\n    master_review_rule_id: null,\n    allowed_review_rule: 1,\n    contact_person_role: null,\n    created_at: 2022-08-21T16:31:07.000Z,\n    updated_at: 2022-08-23T04:18:35.000Z,\n    deleted_at: null,\n    bgcolor: '#9ace5f',\n    fontcolor: '#67982e',\n    initials: 'CP',\n    deleted_by: null,\n    archive_flag: false,\n    archive_at: null,\n    size: null,\n    default_hours: null,\n    has_permission_for_timesheet_review: false,\n    efficiency_level: 100,\n    skip_approval: false,\n    RoleId: 3,\n    ClientId: 24,\n    CompanyId: null,\n    CompanyAccountants: [\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants], [CompanyAccountants],\n      [CompanyAccountants]\n    ]\n  },\n  uniqno: 1,\n  _changed: Set(0) {},\n  _options: {\n    isNewRecord: false,\n    _schema: null,\n    _schemaDelimiter: '',\n    include: [ [Object] ],\n    includeNames: [ 'CompanyAccountants' ],\n    includeMap: { CompanyAccountants: [Object] },\n    includeValidated: true,\n    attributes: [\n      'id',\n      'user_id',\n      'role_id',\n      'client_id',\n      'company_id',\n      'name',\n      'email',\n      'photo',\n      's3_upload',\n      'mobile',\n      'comment',\n      'has_view_access',\n      'is_admin',\n      'allowed_add_company',\n      'sent_verification',\n      'is_verified',\n      'master_review_rule_id',\n      'allowed_review_rule',\n      'contact_person_role',\n      'created_at',\n      'updated_at',\n      'deleted_at',\n      'bgcolor',\n      'fontcolor',\n      'initials',\n      'deleted_by',\n      'archive_flag',\n      'archive_at',\n      'size',\n      'default_hours',\n      'has_permission_for_timesheet_review',\n      'efficiency_level',\n      'skip_approval',\n      'RoleId',\n      'ClientId',\n      'CompanyId'\n    ],\n    raw: true\n  },\n  isNewRecord: false,\n  CompanyAccountants: [\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    },\n    CompanyAccountants {\n      dataValues: [Object],\n      _previousDataValues: [Object],\n      uniqno: 1,\n      _changed: Set(0) {},\n      _options: [Object],\n      isNewRecord: false\n    }\n  ]\n}"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"SELECT t.id,t.task_id,t.is_completed,t.deleted_at, t.title,t.note,t.user_profile_id,t.status_id,t.category_id,t.company_id,t.user_profile_id,t.deleted_by,c.name as company_name, c.logo as company_logo, c.initials as company_initials, c.fontcolor as company_fontcolor, c.bgcolor as company_bgcolor, ca.name as category_name, ca.background_color as category_color,up.name as accountant_name, up.photo as accountant_photo, up.initials, up.fontcolor, up.bgcolor, s.status,s.state,upr.name as accountantName, upr.photo as accountantPhoto, upr.initials as deleteInitials, upr.fontcolor as fontColor, upr.bgcolor as bgColor,  s.color_code,ta.is_repeat as is_repeat,ta.task_date as task_start_date, DATE_FORMAT(t.date_delete, '%Y-%m-%d') as deletedAt, ta.repeat_end as task_end_date, ta.repeat_string, ta.repeat_freq, ta.task_ref_id, DATE_FORMAT(t.task_date, '%Y-%m-%d') AS task_date,DATE_FORMAT(t.delete_on, '%d.%m.%Y %H:%i') AS delete_on FROM `task_details` as t LEFT JOIN tasks AS ta on t.task_id = ta.id AND t.task_id IS NOT NULL LEFT JOIN companies AS c on t.company_id = c.id AND t.company_id IS NOT NULL LEFT JOIN categories AS ca on t.category_id = ca.id AND t.category_id IS NOT NULL LEFT JOIN user_profile AS up on t.user_profile_id = up.id AND t.user_profile_id IS NOT NULL LEFT JOIN user_profile AS upr on t.deleted_by = upr.id  LEFT JOIN statuses AS s on t.status_id = s.id AND t.status_id != '' WHERE t.deleted_at IS NULL AND t.task_id = :task_id AND DATE_FORMAT(t.task_date, '%Y-%m-%d') IN (:all_dates)  ORDER BY t.task_date ASC"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"Upload error: file undefined-------------photo"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"SELECT t.id,t.task_id,t.is_completed,t.deleted_at, t.title,t.note,t.user_profile_id,t.status_id,t.category_id,t.company_id,t.user_profile_id,t.deleted_by,c.name as company_name, c.logo as company_logo, c.initials as company_initials, c.fontcolor as company_fontcolor, c.bgcolor as company_bgcolor, ca.name as category_name, ca.background_color as category_color,up.name as accountant_name, up.photo as accountant_photo, up.initials, up.fontcolor, up.bgcolor, s.status,s.state,upr.name as accountantName, upr.photo as accountantPhoto, upr.initials as deleteInitials, upr.fontcolor as fontColor, upr.bgcolor as bgColor,  s.color_code,ta.is_repeat as is_repeat,ta.task_date as task_start_date, DATE_FORMAT(t.date_delete, '%Y-%m-%d') as deletedAt, ta.repeat_end as task_end_date, ta.repeat_string, ta.repeat_freq, ta.task_ref_id, DATE_FORMAT(t.task_date, '%Y-%m-%d') AS task_date,DATE_FORMAT(t.delete_on, '%d.%m.%Y %H:%i') AS delete_on FROM `task_details` as t LEFT JOIN tasks AS ta on t.task_id = ta.id AND t.task_id IS NOT NULL LEFT JOIN companies AS c on t.company_id = c.id AND t.company_id IS NOT NULL LEFT JOIN categories AS ca on t.category_id = ca.id AND t.category_id IS NOT NULL LEFT JOIN user_profile AS up on t.user_profile_id = up.id AND t.user_profile_id IS NOT NULL LEFT JOIN user_profile AS upr on t.deleted_by = upr.id  LEFT JOIN statuses AS s on t.status_id = s.id AND t.status_id != '' WHERE t.deleted_at IS NULL AND t.task_id = :task_id AND DATE_FORMAT(t.task_date, '%Y-%m-%d') IN (:all_dates)  ORDER BY t.task_date ASC"}
+{"level":"info","message":"SELECT t.id,t.task_id,t.is_completed,t.deleted_at, t.title,t.note,t.user_profile_id,t.status_id,t.category_id,t.company_id,t.user_profile_id,t.deleted_by,c.name as company_name, c.logo as company_logo, c.initials as company_initials, c.fontcolor as company_fontcolor, c.bgcolor as company_bgcolor, ca.name as category_name, ca.background_color as category_color,up.name as accountant_name, up.photo as accountant_photo, up.initials, up.fontcolor, up.bgcolor, s.status,s.state,upr.name as accountantName, upr.photo as accountantPhoto, upr.initials as deleteInitials, upr.fontcolor as fontColor, upr.bgcolor as bgColor,  s.color_code,ta.is_repeat as is_repeat,ta.task_date as task_start_date, DATE_FORMAT(t.date_delete, '%Y-%m-%d') as deletedAt, ta.repeat_end as task_end_date, ta.repeat_string, ta.repeat_freq, ta.task_ref_id, DATE_FORMAT(t.task_date, '%Y-%m-%d') AS task_date,DATE_FORMAT(t.delete_on, '%d.%m.%Y %H:%i') AS delete_on FROM `task_details` as t LEFT JOIN tasks AS ta on t.task_id = ta.id AND t.task_id IS NOT NULL LEFT JOIN companies AS c on t.company_id = c.id AND t.company_id IS NOT NULL LEFT JOIN categories AS ca on t.category_id = ca.id AND t.category_id IS NOT NULL LEFT JOIN user_profile AS up on t.user_profile_id = up.id AND t.user_profile_id IS NOT NULL LEFT JOIN user_profile AS upr on t.deleted_by = upr.id  LEFT JOIN statuses AS s on t.status_id = s.id AND t.status_id != '' WHERE t.deleted_at IS NULL AND t.task_id = :task_id AND DATE_FORMAT(t.task_date, '%Y-%m-%d') IN (:all_dates)  ORDER BY t.task_date ASC"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.module_name desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT COUNT(iel.id) as count FROM integration_error_logs as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.created_at desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.created_at desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.module_name desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT COUNT(iel.id) as count FROM integration_error_logs as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.created_at desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.created_at desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT COUNT(iel.id) as count FROM integration_error_logs as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.module_name asc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.module_name asc "}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"Upload error: file undefined-------------photo"}
+{"level":"info","message":"========== { client_id: '25', loadData: false } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"Upload error: file undefined-------------photo"}
+{"level":"info","message":"========== { client_id: '25', loadData: false } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}

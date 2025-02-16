@@ -1,0 +1,135 @@
+[
+    {
+        "step": 1,
+        "step_id": "1",
+        "step_name": "title-risk-step1",
+        "step_description": "desc-risk-step1",
+        "help": "help-risk-step1",
+        "assessment_count": 0,
+        "completed_count": 0,
+        "data": {
+            "company_id": "",
+            "org_number": "",
+            "name": "",
+            "post_address_id": "",
+            "post_address_street": "",
+            "post_address_postcode": "",
+            "post_address_city": "",
+            "post_address_country": "",
+            "legal_structure_id": "",
+            "legal_structure_name": "",
+            "date_founded": "",
+            "employees": "",
+            "company_tags": [],
+            "company_comment": ""
+        }
+    },
+    {
+        "step": 2,
+        "step_id": "2",
+        "step_name": "title-risk-step2",
+        "step_description": "desc-risk-step2",
+        "help": "help-risk-step2",
+        "assessment_count": 1,
+        "completed_count": 0,
+        "data": {
+            "industry_id": "",
+            "industry_name": "",
+            "expected_turnover": "",
+            "expected_earing": "",
+            "assessment_status": "",
+            "industry_comment": ""
+        }
+    },
+    {
+        "step": 3,
+        "step_id": "3",
+        "step_name": "title-risk-step3",
+        "step_description": "desc-risk-step3",
+        "help": "help-risk-step3",
+        "assessment_count": 0,
+        "completed_count": 0,
+        "data": {
+            "contact_persons": [],
+            "contact_comment": ""
+        }
+    },
+    {
+        "step": 4,
+        "step_id": "4",
+        "step_name": "title-risk-step4",
+        "step_description": "desc-risk-step4",
+        "help": "help-risk-step4",
+        "assessment_count": 1,
+        "completed_count": 0,
+        "data": {
+            "shareholders": [],
+            "assessment_status": "",
+            "shareholders_comment": ""
+        }
+    },
+    {
+        "step": 5,
+        "step_id": "5",
+        "step_name": "title-risk-step5",
+        "step_description": "desc-risk-step5",
+        "help": "help-risk-step5",
+        "assessment_count": 0,
+        "completed_count": 0,
+        "data": {
+            "indirect_shareholders": [],
+            "indirect_shareholders_comment": ""
+        }
+    },
+    {
+        "step": 6,
+        "step_id": "6",
+        "step_name": "title-risk-step6",
+        "step_description": "desc-risk-step6",
+        "help": "help-risk-step6",
+        "assessment_count": 4,
+        "completed_count": 0,
+        "data": {
+            "cash_based_business_assessment_status": "",
+            "cash_based_business_comment": "",
+            "associated_with_high_risk_countries_assessment_status": "",
+            "associated_with_high_risk_countries_comment": "",
+            "transactions_with_high_risk_countries_assessment_status": "",
+            "transactions_with_high_risk_countries_comment": "",
+            "suspected_terror_financing_assessment_status": "",
+            "suspected_terror_financing_comment": ""
+        }
+    },
+    {
+        "step": 7,
+        "step_id": "7",
+        "step_name": "title-risk-step7",
+        "step_description": "desc-risk-step7",
+        "help": "help-risk-step7",
+        "assessment_count": 2,
+        "completed_count": 0,
+        "data": {
+            "risk_assessment_competency_assessment_status": "",
+            "risk_assessment_competency_comment": "",
+            "risk_assessment_capacity_assessment_status": "",
+            "risk_assessment_capacity_comment": ""
+        }
+    },
+    {
+        "step": 8,
+        "step_id": "8",
+        "step_name": "title-risk-step8",
+        "step_description": "desc-risk-step8",
+        "help": "help-risk-step8",
+        "assessment_count": 1,
+        "completed_count": 0,
+        "data": {
+            "overall_assessment_status": "",
+            "overall_comment": "",
+            "next_risk_assessment": "",
+            "assessment_by_id": "",
+            "assessment_by_name": "",
+            "tasks": []
+        }
+    }
+]

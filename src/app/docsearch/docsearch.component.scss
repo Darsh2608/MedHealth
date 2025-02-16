@@ -1,0 +1,426 @@
+.content {
+    min-height: 200px;
+    padding: 80px 0 0;
+  }
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .chat-page .content > .container-fluid {
+    padding: 0;
+  }
+  .card {
+    border: 1px solid #f0f0f0;
+    margin-bottom: 1.875rem;
+  }
+  .card-body {
+    padding: 1.5rem;
+  }
+  .card-title {
+    margin-bottom: 15px;
+  }
+  .card-header {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 1rem 1.5rem;
+  }
+  .card .card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .card .card-header .card-title {
+    margin-bottom: 0;
+  }
+  .card-header-tabs {
+    border-bottom: 0;
+  }
+  .filter-widget {
+    margin-bottom: 20px;
+  }
+  .filter-widget h4 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  .filter-widget .custom_check {
+    line-height: 18px;
+  }
+  .cal-icon {
+    position: relative;
+    width: 100%;
+  }
+  .cal-icon:after {
+    color: #979797;
+    content: "\f073";
+    display: block;
+    font-family: "Font Awesome 5 Free";
+    font-size: 16px;
+    font-weight: 400;
+    margin: auto;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+  .form-control {
+    border-color: #dcdcdc;
+    color: #333;
+    font-size: 15px;
+    min-height: 46px;
+    padding: 6px 15px;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: #858585;
+    font-size: 14px;
+  }
+  .form-control::-moz-placeholder {
+    color: #858585;
+    font-size: 14px;
+  }
+  .form-control:-ms-input-placeholder {
+    color: #858585;
+    font-size: 14px;
+  }
+  .form-control::-ms-input-placeholder {
+    color: #858585;
+    font-size: 14px;
+  }
+  .form-control::placeholder {
+    color: #858585;
+    font-size: 14px;
+  }
+  .custom_check {
+    color: #666;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    font-size: 0.9375rem;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .custom_check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .custom_check input:checked ~ .checkmark {
+    background-color: #fff;
+  }
+  .custom_check .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    border-radius: 3px;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .custom_check .checkmark::after {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    display: none;
+    left: 4px;
+    top: 0;
+    color: #0de0fe;
+    font-size: 11px;
+  }
+  .custom_check input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .filter-widget .custom_check {
+    line-height: 18px;
+  }
+  .custom_radio input:checked ~ .checkmark:after {
+    opacity: 1;
+  }
+  .custom_radio .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+  }
+  .custom_radio .checkmark:after {
+    display: block;
+    content: "";
+    position: absolute;
+    opacity: 0;
+    top: 3px;
+    left: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ff9b44;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .btn-search .btn {
+    background-color: #0de0fe;
+    border: 1px solid #0de0fe;
+    color: #fff;
+    height: 46px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .doctor-widget {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .doctor-widget .doc-name {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 3px;
+  }
+  .doctor-widget .rating i {
+    font-size: 14px;
+  }
+  .doctor-widget .average-rating {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .doc-info-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .doctor-img {
+    -ms-flex: 0 0 150px;
+    flex: 0 0 150px;
+    margin-right: 20px;
+    width: 150px;
+  }
+  .doctor-img img {
+    border-radius: 5px;
+  }
+  .doc-speciality {
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 15px;
+  }
+  .doc-department {
+    color: #20c0f3;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .doc-department img {
+    width: 19px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .rating {
+    list-style: none;
+    margin: 0 0 7px;
+    padding: 0;
+    width: 100%;
+  }
+  .rating i {
+    color: #dedfe0;
+  }
+  .rating i.filled {
+    color: #f4c150;
+  }
+  .clinic-details {
+    margin-bottom: 15px;
+  }
+  .clinic-details h5 {
+    font-weight: normal;
+    color: #757575;
+    margin-bottom: 25px;
+  }
+  .clinic-details ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .clinic-details ul li {
+    display: inline-block;
+    padding-right: 5px;
+  }
+  .clinic-details ul li:last-child {
+    padding-right: 0;
+  }
+  .clinic-details ul li a {
+    display: inline-block;
+  }
+  .clinic-details ul li a img {
+    border-radius: 5px;
+    width: 40px;
+  }
+  .doc-location {
+    color: #757575;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  .doc-location a {
+    color: #09e5ab;
+    font-weight: 500;
+  }
+  .doctor-widget .average-rating {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .clinic-services {
+    color: #272b41;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 13px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .clinic-services span {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 3px 10px;
+  }
+  .clinic-services span + span {
+    margin-left: 5px;
+  }
+  .doc-info-right {
+    margin-left: auto;
+    -ms-flex: 0 0 200px;
+    flex: 0 0 200px;
+    max-width: 200px;
+  }
+  .clini-infos {
+    margin-bottom: 15px;
+  }
+  .clini-infos ul {
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .clini-infos ul li {
+    display: block;
+    line-height: 30px;
+    color: #4e4852;
+  }
+  .clini-infos ul li i {
+    font-size: 15px;
+    min-width: 30px;
+  }
+  .clinic-booking a + a {
+    margin-top: 15px;
+  }
+  .clinic-booking a {
+    background-color: #fff;
+    border: 2px solid #20c0f3;
+    border-radius: 4px;
+    color: #20c0f3;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .clinic-booking a.view-pro-btn:hover,
+  .clinic-booking a.view-pro-btn:focus {
+    background: #20c0f3;
+    color: #fff;
+    
+  }
+  .clinic-booking a.apt-btn {
+    background-color: #20c0f3;
+    color: #fff;
+    text-decoration: none;
+  }
+  .clinic-booking a.apt-btn:hover,
+  .clinic-booking a.apt-btn:focus {
+    background-color: #0db9f2;
+    border-color: #0db9f2;
+    color: #fff;
+    text-decoration: underline;
+  }
+  .load-more {
+    margin-bottom: 30px;
+  }
+  
+  @media only screen and (max-width: 767.98px) {
+    .content {
+      padding: 15px 0 0;
+    }
+    .container-fluid {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .card {
+      margin-bottom: 20px;
+    }
+    .doctor-widget {
+      -ms-flex-direction: column;
+      flex-direction: column;
+      text-align: center;
+    }
+    .doctor-widget .doc-name {
+      font-size: 18px;
+    }
+    .doc-info-left {
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+    .doctor-img {
+      margin: 0 auto 20px;
+    }
+    .clinic-services {
+      display: none;
+    }
+    .doc-info-right {
+      margin-left: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 1199px) {
+    .container-fluid {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 575.98px) {
+    .card {
+      margin-bottom: 0.9375rem;
+    }
+    .card-body {
+      padding: 1.25rem;
+    }
+    .card-header {
+      padding: 0.75rem 1.25rem;
+    }
+  }
+  
+  @media only screen and (max-width: 479px) {
+    .clinic-booking a.view-pro-btn {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .clinic-booking a.apt-btn {
+      width: 100%;
+    }
+  }
+  

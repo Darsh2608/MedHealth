@@ -1,0 +1,138 @@
+
+<html lang="en" data-bs-theme="dark">
+  <body>
+    <div class="wrapper">
+      <aside id="sidebar" [class.collapsed]="isCollapsed" class="js-sidebar">
+        <!-- Content For Sidebar -->
+        <div class="h-100">
+          <img src="../assets/img/logo4.jpg" class="image" alt="logo" />
+          <hr class="hr">
+
+          <!-- profile -->
+          <div class="profile-sidebar">
+            <div class="widget-profile pro-widget-content">
+              <div class="profile-info-widget">
+                <a href="#" class="booking-doc-img">
+                  <img
+                    src="assets/img/doctors/doctor-thumb-02.jpg"
+                    alt="User Image"
+                  />
+                </a>
+                <div class="profile-det-info">
+                  <h3>Dr. Darren Elder</h3>
+  
+                  <div class="patient-details">
+                    <h5 class="mb-0">BDS, MDS - Oral & Maxillofacial Surgery</h5>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dashboard-widget">
+              <nav class="dashboard-menu">
+                <ul>
+                  <li>
+                    <a href="#" [routerLink]="['/admin']">
+                      <i class="fas fa-columns"></i>
+                      <span>Dashboard</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" [routerLink]="['/doctorlist']">
+                      <i class="fa-solid fa-user-doctor"></i>
+                      <span>Doctors</span>
+                    </a>
+                  </li>
+                  <li class="active">
+                    <a href="#" [routerLink]="['/patientlist']">
+                      <i class="fa-solid fa-user"></i>
+                      <span>Patients</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" [routerLink]="['/admin-setting']">
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Settings</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" [routerLink]="['/admin-profile']">
+                      <i class="fa-regular fa-id-badge"></i>
+                      <span>Profile</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" [routerLink]="['/login']">
+                      <i class="fa-solid fa-right-from-bracket"></i>
+                      <span>Logout</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <!-- /Profile Sidebar -->
+
+        </div>
+      </aside>
+
+      <div class="main">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand px-3 border-bottom">
+          <button
+            class="btn"
+            id="sidebar-toggle"
+            type="button"
+            (click)="toggleSidebar()"
+          >
+            <span class="fa-solid fa-bars bars"></span>
+          </button>
+        </nav>
+        <!-- /navbar -->
+
+        <!-- main content -->
+        <main class="content px-3 py-2">
+          <div class="container-fluid">
+            <div class="mb-3">
+              <h2 class="h2">Patient list</h2>
+            </div>
+            <div class="row">
+              
+              <div class="container mt-3">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Patient ID</th>
+                            <th>Patient Name</th>
+                            <th>Age</th>
+                            <th>Address</th>
+                            <th>Phone</th>
+                            <th>Last Visit</th>
+                            <th>Paid</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let patient of patients">
+                            <td>{{ patient.id }}</td>
+                            <td>{{ patient.name }}</td>
+                            <td>{{ patient.age }}</td>
+                            <td>{{ patient.address }}</td>
+                            <td>{{ patient.phone }}</td>
+                            <td>{{ patient.lastVisit }}</td>
+                            <td>{{ patient.paid ? 'Yes' : 'No' }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+
+
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
+
+

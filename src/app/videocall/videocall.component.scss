@@ -1,0 +1,285 @@
+.navbar{
+    top: -8px;
+    z-index: 100;
+  }
+  .content {
+      min-height: 200px;
+      padding: 80px 0 0;
+    }
+    .container-fluid {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .call-wrapper {
+      position: relative;
+      height: calc(100vh - 145px);
+    }
+    .call-main-row {
+      bottom: 0;
+      left: 0;
+      overflow: auto;
+      padding-bottom: inherit;
+      padding-top: inherit;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .call-main-wrapper {
+      display: table;
+      height: 100%;
+      table-layout: fixed;
+      width: 100%;
+    }
+    .call-view {
+      display: table-cell;
+      height: 100%;
+      float: none;
+      padding: 0;
+      position: static;
+      vertical-align: top;
+      width: 75%;
+    }
+    .call-window {
+      display: table;
+      height: 100%;
+      table-layout: fixed;
+      width: 100%;
+      background-color: #fff;
+      border: 1px solid #f0f0f0;
+    }
+    .fixed-header {
+      background-color: #fff;
+      border-bottom: 1px solid #f0f0f0;
+      padding: 10px 15px;
+    }
+    .fixed-header .navbar {
+      border: 0 none;
+      margin: 0;
+      min-height: auto;
+      padding: 0;
+    }
+    .fixed-header .user-info a {
+      color: #272b41;
+      font-weight: 500;
+    }
+    .fixed-header .custom-menu {
+      margin: 0 0 1px;
+    }
+    .content-full {
+      height: 100%;
+      position: relative;
+      width: 100%;
+    }
+    .video-window .fixed-header {
+      padding: 0;
+      border: 0;
+    }
+    .video-window .fixed-header .nav > li > a {
+      padding: 18px 15px;
+    }
+    .user-img {
+      display: inline-block;
+      position: relative;
+    }
+    .user-img > img {
+      height: 31px;
+      object-fit: cover;
+      width: 31px;
+    }
+    .avatar {
+      position: relative;
+      display: inline-block;
+      width: 3rem;
+      height: 3rem;
+    }
+    .avatar > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+    }
+    .avatar-sm {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+    .fixed-header .user-info a {
+      color: #272b41;
+      font-weight: 500;
+    }
+    .last-seen {
+      color: #888;
+      display: block;
+      font-size: 12px;
+    }
+    .custom-menu {
+      margin-top: 6px;
+    }
+    .fixed-header .custom-menu {
+      margin: 0 0 1px;
+    }
+    .custom-menu.nav > li > a {
+      color: #bbb;
+      font-size: 26px;
+      line-height: 32px;
+      margin-left: 15px;
+      padding: 0;
+    }
+    .custom-menu.navbar-nav > li > a:hover,
+    .custom-menu.navbar-nav > li > a:focus {
+      background-color: transparent;
+    }
+    .custom-menu .dropdown-menu {
+      left: auto;
+      right: 0;
+    }
+    .call-contents {
+      display: table-row;
+      height: 100%;
+    }
+    .call-content-wrap {
+      height: 100%;
+      position: relative;
+      width: 100%;
+    }
+    .user-video {
+      bottom: 0;
+      left: 0;
+      overflow: auto;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 10;
+    }
+    .user-video img {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      max-height: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+    .my-video {
+      position: absolute;
+      z-index: 99;
+      bottom: 20px;
+      right: 20px;
+    }
+    .my-video ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .my-video ul li {
+      float: left;
+      width: 120px;
+      margin-right: 10px;
+    }
+    .my-video ul li img {
+      border: 3px solid #fff;
+      border-radius: 6px;
+    }
+    .call-footer {
+      background-color: #fff;
+      border-top: 1px solid #f0f0f0;
+      padding: 15px;
+    }
+    .call-icons {
+      text-align: center;
+      position: relative;
+    }
+    .call-icons .call-items {
+      border-radius: 5px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: inline-block;
+    }
+    .call-icons .call-items .call-item {
+      display: inline-block;
+      text-align: center;
+      margin-right: 5px;
+    }
+    .call-icons .call-items .call-item:last-child {
+      margin-right: 0;
+    }
+    .call-icons .call-items .call-item a {
+      color: #777;
+      border: 1px solid #ddd;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      border-radius: 50px;
+      display: inline-block;
+      font-size: 20px;
+    }
+    .call-icons .call-items .call-item a i {
+      width: 18px;
+      height: 18px;
+    }
+    .call-duration {
+      display: inline-block;
+      font-size: 30px;
+      margin-top: 4px;
+      position: absolute;
+      left: 0;
+    }
+    .end-call {
+      position: absolute;
+      top: 7px;
+      right: 0;
+    }
+    .end-call a {
+      background-color: #f06060;
+      border-radius: 50px;
+      color: #fff;
+      display: inline-block;
+      line-height: 10px;
+      padding: 8px 25px;
+      text-transform: uppercase;
+    }
+    
+    @media only screen and (max-width: 767.98px) {
+      .content {
+        padding: 15px 0 0;
+      }
+      .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .call-wrapper {
+        height: calc(100vh - 115px);
+      }
+      .my-video ul li {
+        width: 50px;
+      }
+      .call-duration {
+        font-size: 24px;
+      }
+    }
+    
+    @media only screen and (max-width: 1199px) {
+      .container-fluid {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    
+    @media only screen and (max-width: 991.98px) {
+      .call-wrapper {
+        height: calc(100vh - 140px);
+      }
+    }
+    
+    @media only screen and (max-width: 575.98px) {
+      .call-duration {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 10px;
+        position: inherit;
+      }
+      .end-call {
+        margin-top: 10px;
+        position: inherit;
+      }
+    }
+    

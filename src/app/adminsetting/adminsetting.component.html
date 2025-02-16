@@ -1,0 +1,145 @@
+
+<html lang="en" data-bs-theme="dark">
+  <body>
+    <div class="wrapper">
+      <aside id="sidebar" [class.collapsed]="isCollapsed" class="js-sidebar">
+        <!-- Content For Sidebar -->
+        <div class="h-100">
+          <img src="../assets/img/logo4.jpg" class="image" alt="logo" />
+          <hr class="hr">
+
+          <!-- profile -->
+          <div class="profile-sidebar">
+            <div class="widget-profile pro-widget-content">
+              <div class="profile-info-widget">
+                <a href="#" class="booking-doc-img">
+                  <img
+                    src="assets/img/doctors/doctor-thumb-02.jpg"
+                    alt="User Image"
+                  />
+                </a>
+                <div class="profile-det-info">
+                  <h3>Dr. Darren Elder</h3>
+  
+                  <div class="patient-details">
+                    <h5 class="mb-0">BDS, MDS - Oral & Maxillofacial Surgery</h5>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dashboard-widget">
+              <nav class="dashboard-menu">
+                <ul>
+                  <li>
+                    <a href="#" [routerLink]="['/admin']">
+                      <i class="fas fa-columns"></i>
+                      <span>Dashboard</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" [routerLink]="['/doctorlist']">
+                      <i class="fa-solid fa-user-doctor"></i>
+                      <span>Doctors</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" [routerLink]="['/patientlist']">
+                      <i class="fa-solid fa-user"></i>
+                      <span>Patients</span>
+                    </a>
+                  </li>
+                  <li class="active">
+                    <a href="#" [routerLink]="['/admin-setting']">
+                      <i class="fa-solid fa-gear"></i>
+                      <span>Settings</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" [routerLink]="['/admin-profile']">
+                      <i class="fa-regular fa-id-badge"></i>
+                      <span>Profile</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" [routerLink]="['/login']">
+                      <i class="fa-solid fa-right-from-bracket"></i>
+                      <span>Logout</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <!-- /Profile Sidebar -->
+
+        </div>
+      </aside>
+
+      <div class="main">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand px-3 border-bottom">
+          <button
+            class="btn"
+            id="sidebar-toggle"
+            type="button"
+            (click)="toggleSidebar()"
+          >
+            <span class="fa-solid fa-bars bars"></span>
+          </button>
+        </nav>
+        <!-- /navbar -->
+
+        <!-- main content -->
+        <main class="content px-3 py-2">
+          <div class="container-fluid">
+            <div class="mb-3">
+              <h2 class="h2">General Settings</h2>
+              <h6 class="h6">Dashboard / Settings</h6>
+            </div>
+            <div class="row">
+
+              <div class="col-12">
+							
+                <!-- General -->
+                
+                  <div class="card">
+                    <div class="card-header">
+                      <h4 class="card-title">General</h4>
+                    </div>
+                    <div class="card-body">
+                      <form action="#">
+                    
+                        <div class="form-group">
+                          <label>Website Name</label>
+                          <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label>Website Logo</label>
+                          <input type="file" class="form-control">
+                          <small class="text-secondary">Recommended image size is <b>150px x 150px</b></small>
+                        </div>
+                        <div class="form-group mb-0">
+                          <label>Favicon</label>
+                          <input type="file" class="form-control">
+                          <small class="text-secondary">Recommended image size is <b>16px x 16px</b> or <b>32px x 32px</b></small><br>
+                          <small class="text-secondary">Accepted formats : only png and ico</small>
+                        </div>
+                        
+                      </form>
+                    </div>
+                  </div>
+                
+                <!-- /General -->
+                  
+              </div>
+              
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
+
+

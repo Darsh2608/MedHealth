@@ -1,0 +1,288 @@
+[
+    {
+        "step_id":"",
+        "cf_master_id":"",
+        "category_id":"",
+        "name": "Firma informasjon",
+        "description": "Hvis selskapet finnes i Brønnlysundregistrene henter vi aktuell informasjon og forhåndsutfyller for deg.",
+        "sort_order": 0,
+        "step": 0,
+        "block_data": [
+            {
+                "block_id":"",
+                "client_id":"",
+                "cf_master_id":"",
+                "cf_step_id":"",
+                "category_id":"",
+                "title": "Firma informasjon",
+                "description": "Hvis selskapet finnes i Brønnlysundregistrene henter vi aktuell informasjon og forhåndsutfyller for deg.",
+                "sort_order": 1,
+                "attributes": [
+                    {
+                        "attribute_id":"",
+                        "client_id":"",
+                        "cf_master_id":"",
+                        "cf_step_id":"",
+                        "cf_block_id":"",
+                        "label": "Company Form",
+                        "description": "",
+                        "type": "companyform",
+                        "is_mandetory": "0",
+                        "attribute_options": "",
+                        "default_value": "",
+                        "is_conditional": 0,
+                        "show_on_field": 0,
+                        "show_on_value": "",
+                        "default_task_notes": "",
+                        "default_task_attachments": "",
+                        "default_task_rule": "",
+                        "sort_order": 1
+                    }
+                ]
+            },
+            {
+                "block_id":"",
+                "client_id":"",
+                "cf_master_id":"",
+                "cf_step_id":"",
+                "category_id":"",
+                "title": "Kontaktpersoner",
+                "description": "Hvis selskapet finnes i Brønnlysundregistrene henter vi aktuell informasjon og forhåndsutfyller for deg.",
+                "sort_order": 2,
+                "attributes": [
+                    {
+                        "attribute_id":"",
+                        "client_id":"",
+                        "cf_master_id":"",
+                        "cf_step_id":"",
+                        "cf_block_id":"",
+                        "label": "Contact Person Form",
+                        "description": "",
+                        "type": "contactpersonform",
+                        "is_mandetory": "0",
+                        "attribute_options": "",
+                        "default_value": "",
+                        "is_conditional": 0,
+                        "show_on_field": 0,
+                        "show_on_value": "",
+                        "default_task_notes": "",
+                        "default_task_attachments": "",
+                        "default_task_rule": "",
+                        "sort_order": 2
+                    }
+                ]
+            },
+            {
+                "block_id":"",
+                "client_id":"",
+                "cf_master_id":"",
+                "cf_step_id":"",
+                "category_id":"",
+                "title": "Kommentar",
+                "description": "Hvis selskapet finnes i Brønnlysundregistrene henter vi aktuell informasjon og forhåndsutfyller for deg.",
+                "sort_order": 3,
+                "attributes": [
+                    {
+                        "attribute_id":"",
+                        "client_id":"",
+                        "cf_master_id":"",
+                        "cf_step_id":"",
+                        "cf_block_id":"",
+                        "label": "Kommentar",
+                        "description": "",
+                        "type": "textarea",
+                        "is_mandetory": "0",
+                        "attribute_options": "",
+                        "default_value": "",
+                        "is_conditional": 0,
+                        "show_on_field": 0,
+                        "show_on_value": "",
+                        "default_task_notes": "",
+                        "default_task_attachments": "",
+                        "default_task_rule": "",
+                        "sort_order": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "step_id":"",
+        "cf_master_id":"",
+        "category_id":"",
+        "name": "Om oppdraget",
+        "description": "Hvis selskapet finnes i Brønnlysundregistrene henter vi aktuell informasjon og forhåndsutfyller for deg.",
+        "sort_order": 1,
+        "step": 1,
+        "block_data": [
+            {
+                "block_id":"",
+                "client_id":"",
+                "cf_master_id":"",
+                "cf_step_id":"",
+                "category_id":"",
+                "title": "Oppdragsansvarlig",
+                "description": "Hvis selskapet finnes i Brønnlysundregistrene henter vi aktuell informasjon og forhåndsutfyller for deg.",
+                "sort_order": 1,
+                "attributes": [
+                    {
+                        "attribute_id":"",
+                        "client_id":"",
+                        "cf_master_id":"",
+                        "cf_step_id":"",
+                        "cf_block_id":"",
+                        "label": "Hvem er ansvarlig?",
+                        "description": "",
+                        "type": "assignaccountantdropdown",
+                        "is_mandetory": "0",
+                        "attribute_options": "",
+                        "default_value": "",
+                        "is_conditional": 0,
+                        "show_on_field": 0,
+                        "show_on_value": "",
+                        "default_task_notes": "",
+                        "default_task_attachments": "",
+                        "default_task_rule": "",
+                        "sort_order": 1
+                    }
+                ]
+            },
+            {
+                "block_id":"",
+                "client_id":"",
+                "cf_master_id":"",
+                "cf_step_id":"",
+                "category_id":"",
+                "title": "Andre som skal ha tilgang",
+                "description": "Hvis selskapet finnes i Brønnlysundregistrene henter vi aktuell informasjon og forhåndsutfyller for deg.",
+                "sort_order": 2,
+                "attributes": [
+                    {
+                        "attribute_id":"",
+                        "client_id":"",
+                        "cf_master_id":"",
+                        "cf_step_id":"",
+                        "cf_block_id":"",
+                        "label": "Hvem er ansvarlig?",
+                        "description": "",
+                        "type": "assignaccountantform",
+                        "is_mandetory": "0",
+                        "attribute_options": "",
+                        "default_value": "",
+                        "is_conditional": 0,
+                        "show_on_field": 0,
+                        "show_on_value": "",
+                        "default_task_notes": "",
+                        "default_task_attachments": "",
+                        "default_task_rule": "",
+                        "sort_order": 1
+                    }
+                ]
+            },
+            {
+                "block_id":"",
+                "client_id":"",
+                "cf_master_id":"",
+                "cf_step_id":"",
+                "category_id":"",
+                "title": "Oppstartsdato",
+                "description": "Hvis selskapet finnes i Brønnlysundregistrene henter vi aktuell informasjon og forhåndsutfyller for deg.",
+                "sort_order": 3,
+                "attributes": [
+                    {
+                        "attribute_id":"",
+                        "client_id":"",
+                        "cf_master_id":"",
+                        "cf_step_id":"",
+                        "cf_block_id":"",
+                        "label": "Oppdragsavtalen gjelder fra",
+                        "description": "",
+                        "type": "date",
+                        "is_mandetory": "0",
+                        "attribute_options": "",
+                        "default_value": "",
+                        "is_conditional": 0,
+                        "show_on_field": 0,
+                        "show_on_value": "",
+                        "default_task_notes": "",
+                        "default_task_attachments": "",
+                        "default_task_rule": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "attribute_id":"",
+                        "client_id":"",
+                        "cf_master_id":"",
+                        "cf_step_id":"",
+                        "cf_block_id":"",
+                        "label": "Kommentar",
+                        "description": "",
+                        "type": "textarea",
+                        "is_mandetory": "0",
+                        "attribute_options": "",
+                        "default_value": "",
+                        "is_conditional": 0,
+                        "show_on_field": 0,
+                        "show_on_value": "",
+                        "default_task_notes": "",
+                        "default_task_attachments": "",
+                        "default_task_rule": "",
+                        "sort_order": 2
+                    }
+                ]
+            },
+            {
+                "block_id":"",
+                "client_id":"",
+                "cf_master_id":"",
+                "cf_step_id":"",
+                "category_id":"",
+                "title": "Om oppdraget",
+                "description": "Hvis selskapet finnes i Brønnlysundregistrene henter vi aktuell informasjon og forhåndsutfyller for deg.",
+                "sort_order": 4,
+                "attributes": [
+                    {
+                        "attribute_id":"",
+                        "client_id":"",
+                        "cf_master_id":"",
+                        "cf_step_id":"",
+                        "cf_block_id":"",
+                        "label": "Oppsigelsestid",
+                        "description": "",
+                        "type": "selectbox",
+                        "is_mandetory": "0",
+                        "attribute_options": "1|2|3",
+                        "default_value": "",
+                        "is_conditional": 0,
+                        "show_on_field": 0,
+                        "show_on_value": "",
+                        "default_task_notes": "",
+                        "default_task_attachments": "",
+                        "default_task_rule": "",
+                        "sort_order": 1
+                    },
+                    {
+                        "attribute_id":"",
+                        "client_id":"",
+                        "cf_master_id":"",
+                        "cf_step_id":"",
+                        "cf_block_id":"",
+                        "label": "Kommentar",
+                        "description": "",
+                        "type": "textarea",
+                        "is_mandetory": "0",
+                        "attribute_options": "",
+                        "default_value": "",
+                        "is_conditional": 0,
+                        "show_on_field": 0,
+                        "show_on_value": "",
+                        "default_task_notes": "",
+                        "default_task_attachments": "",
+                        "default_task_rule": "",
+                        "sort_order": 2
+                    }
+                ]
+            }
+        ]
+    }    
+]

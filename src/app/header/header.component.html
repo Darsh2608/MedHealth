@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Doctor, Make an Appointment</title>
+    <style>
+        .search-suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1000;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-top: none;
+            width: 100%;
+        }
+
+        .search-suggestions ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .search-suggestions li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .search-suggestions li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Home Banner -->
+<section class="section section-search" style="background-image: url(../assets/img/search-bg.png)">
+    <div class="container-fluid">
+        <div class="banner-wrapper">
+            <div class="banner-header text-center">
+                <h1>Search Doctor, Make an Appointment</h1>
+                <p>Discover the best doctors, clinics & hospitals nearest to you.</p>
+            </div>
+
+            <div class="search-box">
+                <form >
+                    <!-- Location search -->
+                 <!-- Location search -->
+            <div class="form-group search-location">
+              <input type="text" class="form-control" placeholder="Search Location" style="background-image: url(../assets/img/location.png)" #locationInput [value]="currentLocation" (keyup.enter)="location(locationInput.value)" />
+            </div>
+
+                    <!-- Hospital name search -->
+                    <div class="form-group search-info">
+                      <input type="text" class="form-control" placeholder="Search Hospital Name" style="background-image: url(../assets/img/search.png)" #hospitalInput (input)="fetchResults(hospitalInput.value)" />
+                      <!-- Dropdown to show search suggestions -->
+                        <div class="search-suggestions" *ngIf="showSuggestions">
+                            <ul>
+                                <ng-container *ngFor="let innerArray of searchResults">
+                                    <li *ngFor="let result of innerArray">
+                                        <div>
+                                            <p (click)="hospital(result.hospital_name)">{{ result.hospital_name }}</p>
+                                            <!-- Display other relevant hospital information as needed -->
+                                        </div>
+                                    </li>
+                                </ng-container>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- <button type="submit" class="btn btn-primary search-btn">
+                        <i class="fas fa-search"></i> <span>Search</span>
+                    </button> -->
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Home Banner -->
+
+</body>
+</html>

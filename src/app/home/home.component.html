@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!--Start Header	-->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="../assets/img/logo4.jpg" alt="" height= "40px" width="220px"/>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0" *ngIf="this.loginData.type == 2">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    [routerLink]="['/website']"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav-item" *ngIf="this.loginData.type == 2">
+                  <a class="nav-link active" href="#" [routerLink]="['/hospital']">Hospitals</a>
+                </li>
+
+                <li class="nav-item dropdown" *ngIf="this.loginData.type == 2">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Doctors
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" [routerLink]="['/chat']" href="#">Chat</a></li>
+                    <li><a class="dropdown-item" [routerLink]="['/videocall']" href="#">Video Call</a></li>
+                    <li><a class="dropdown-item" [routerLink]="['/search']" href="#">Book Appointment</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown" *ngIf="this.loginData.type == 2">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    My Profile
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" [routerLink]="['/my-appointment']"  href="#">My Appointment</a></li>
+                    <li><a class="dropdown-item" [routerLink]="['/scheduler']" href="#">Calendar</a></li>
+
+                  </ul>
+                </li>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md" *ngIf="!this.loginData">
+                    <button class="btn" type="button" (click)="login()">Login/Signup</button>
+                  </div>
+
+
+                  <li class="nav-item dropdown" *ngIf="this.loginData">
+                    <a class="nav-link dropdown-toggle user" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                    [attr.title]="loginData ? loginData.email : null">
+                    <img src="../assets/img/userlogo.jpg" alt="user" class="userlogo" *ngIf="loginData">
+                    </a>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" [routerLink]="['/login']"  href="#" (click)="logout()">Logout</a></li>  
+                    </ul>
+                  </li>
+
+                    
+              </ul>
+                
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </body>
+  </html>

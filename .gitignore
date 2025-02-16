@@ -1,0 +1,12 @@
+# Ignore node_modules and Angular cache
+node_modules/
+.angular/
+.idea/
+
+# Ignore build output
+dist/
+out/
+
+# Ignore IDE settings
+.vscode/
+*.iml

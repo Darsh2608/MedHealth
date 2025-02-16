@@ -1,0 +1,87 @@
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="booking-form">
+        <h2 class="text-center mb-4">Doctor Booking Form</h2>
+        <form (ngSubmit)="bookAppointment()" [formGroup]="bookingForm">
+          <div class="form-group">
+            <label for="patientName">Patient Name</label>
+            <input type="text" class="form-control" id="patientName" formControlName="patientName" required>
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="tel" class="form-control" id="phoneNumber" formControlName="phoneNumber" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" formControlName="email" required>
+          </div>
+          <div class="form-group">
+            <label>Gender</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" formControlName="gender" value="male" checked>
+              <label class="form-check-label">Male</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" formControlName="gender" value="female">
+              <label class="form-check-label">Female</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" formControlName="gender" value="other">
+              <label class="form-check-label">Other</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="hospital">Hospital/Clinic Name</label>
+            <input type="text" class="form-control" id="hospital" formControlName="hospital" value="{{hospitalName}}">
+
+            <!-- <select class="form-control" id="hospital" formControlName="hospital" required>
+              <option value="hospital1">Hospital 1/Clinic 1</option>
+              <option value="hospital2">Hospital 2/Clinic 2</option>
+            </select> -->
+          </div>
+          <div class="form-group">
+            <label for="consulting">Consulting</label>
+            <select class="form-control" id="consulting" formControlName="consulting" required>
+              <option value="online">Online</option>
+              <option value="offline">Offline</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="location">Location</label>
+            <select class="form-control" id="location" formControlName="location" required>
+              <option value="Vadodara">Vadodara</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Surat">Surat</option>
+              <!-- Add more locations here -->
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="services">Services</label>
+            <select class="form-control" id="services" formControlName="services" required>
+              <option value="Dentist">Dentist</option>
+              <option value="Orthopaedics">Orthopaedics</option>
+              <option value="Gynecologist">Gynecologist</option>
+              <option value="Physician">Physician</option>
+              <option value="Colonoscopy and Fibroscan">Colonoscopy and Fibroscan</option>
+              <option value="Pediatrician">Pediatrician</option>
+
+              <!-- Add more services here -->
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="appointmentDate">Appointment Date</label>
+            <input type="date" class="form-control" id="appointmentDate" formControlName="appointmentDate" required>
+          </div>
+          <div class="form-group">
+            <label for="appointmentTime">Appointment Time</label>
+            <input type="time" class="form-control" id="appointmentTime" formControlName="appointmentTime" required>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

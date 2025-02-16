@@ -1,0 +1,554 @@
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.module_name desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.module_name desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.module_name desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.module_name desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.module_name desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.module_name desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.module_name desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.module_name desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"footerHtmlStr <!DOCTYPE html><head></head><html><body><div style=\"height:75px;\"><img src=\"../images/taskline-logo-dark.png\" alt=\"Taskline\" style=\"width: 100px\"><p style=\"margin-top: 0;font-family: Arial,Helvetica, sans-serif; font-size:12px;\">Generert i Taskline 30.10.2023 07:10</p></div></body></html>"}
+{"level":"info","message":"File uploaded successfully. ./public/uploads/invoices/2/4303/Fakturagrunnlag_1698646240952.pdf"}
+{"level":"info","message":"file deleted successfully"}
+{"level":"info","message":"File uploaded successfully. ./public/uploads/invoices/2/4303/Fakturagrunnlag_1698646240952.xlsx"}
+{"level":"info","message":"file deleted successfully"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>query SELECT iel.id,ia.client_id,iel.integration_id, iel.module_name, iel.module_id, iel.note, iel.type,  DATE_FORMAT(iel.created_at, '%d.%m.%Y') as created_at FROM `integration_error_logs` as iel LEFT JOIN integration_auth as ia on ia.id = iel.integration_id WHERE iel.deleted_at IS NULL AND ia.client_id = :client_id ORDER BY iel.module_name desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL AND tl.status = 'billed' AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL AND tl.status = 'billed' AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL AND tl.status = 'billed' AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL AND tl.status = 'billed' AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL OR tl.status = 'billed' AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL OR tl.status = 'billed' AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL OR tl.status = 'billed' AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL OR tl.status = 'billed' AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL  AND tl.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL AND tl.status = 'billed' AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL AND tl.status = 'billed' AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL AND tl.status = 'billed' AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL AND tl.status = 'billed' AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL AND tl.status = 'billed' AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL AND tl.status = 'billed' AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT COUNT(inv.id) as count FROM timesheet_invoices as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL AND tl.status = 'billed' AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SELECT inv.id, inv.company_id, inv.client_id, inv.invoice_number, DATE_FORMAT(inv.invoiced_date, '%d.%m.%Y') as invoiced_date, inv.invoiced_date as invoiced_date_edit, inv.created_by, inv.is_paid, inv.amount, inv.filename, inv.filepath, c.id as company_id, c.name as company_name, c.logo as company_logo, c.initials, c.fontcolor, c.bgcolor, DATE_FORMAT(inv.created_at, '%d.%m.%Y %H:%i') as created_at FROM `timesheet_invoices` as inv LEFT JOIN companies as c on c.id = inv.company_id LEFT JOIN timesheet_invoice_items as ti on inv.id = ti.timesheet_invoice_id LEFT JOIN timesheet_log_details as tld on ti.timesheet_log_detail_id = tld.id LEFT JOIN timesheet_logs as tl on tld.timesheet_log_id = tl.id WHERE inv.deleted_at IS NULL AND tl.status = 'billed' AND inv.client_id = :client_id ORDER BY inv.invoice_number desc "}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"Connection has been established successfully."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"a user disconnected!"}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}
+{"level":"info","message":"A user connected..."}
+{"level":"info","message":"========== { maintenance: false, status: 'not_started' } =========="}

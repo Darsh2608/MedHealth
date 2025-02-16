@@ -1,0 +1,168 @@
+#!/usr/bin/env node
+
+const cluster = require("cluster");
+const totalCPUs = require("os").cpus().length;
+
+if (cluster.isMaster) {
+  console.log(`Number of CPUs is ${totalCPUs}`);
+  console.log(`Master ${process.pid} is running`);
+
+  // Fork workers.
+  for (let i = 0; i < totalCPUs; i++) {
+    cluster.fork();
+  }
+
+  cluster.on("exit", (worker, code, signal) => {
+    console.log(`worker ${worker.process.pid} died`);
+    console.log("Let's fork another worker!");
+    cluster.fork();
+  });
+
+} else {
+
+  var app = require('../app');
+  var debug = require('debug')('api:server');
+  var http = require('http');
+
+  const domain = require('node:domain');
+
+  var port = normalizePort(process.env.PORT || '3000');
+  app.set('port', port);
+
+  const server = require('node:http').createServer((req, res) => {
+    const d = domain.create();
+    d.on('error', (er) => {
+      console.error(`===========error============ ${er.stack}`);
+
+      // We're in dangerous territory!
+      // By definition, something unexpected occurred,
+      // which we probably didn't want.
+      // Anything can happen now! Be very careful!
+
+      try {
+        // Let the primary know we're dead. This will trigger a
+        // 'disconnect' in the cluster primary, and then it will fork
+        // a new worker.
+        cluster.worker.disconnect();
+
+        // Try to send an error to the request that triggered the problem
+        res.statusCode = 500;
+        res.setHeader('content-type', 'text/plain');
+        res.end('Oops, there was a problem!\n');
+      } catch (er2) {
+        // Oh well, not much we can do at this point.
+        console.error(`Error sending 500===! ${er2.stack}`);
+      }
+    });
+
+    // Because req and res were created before this domain existed,
+    // we need to explicitly add them.
+    // See the explanation of implicit vs explicit binding below.
+    d.add(req);
+    d.add(res);
+
+    // Now run the handler function in the domain.
+    d.run(() => {
+      app(req, res);
+    });
+  });
+  // server.listen(port);
+
+
+  const io = require('socket.io')(server, {
+    cors: { origin: '*' }
+  });
+  global._io = io;
+  io.on('connection', (socket) => {
+    console.log('A user connected...');
+
+    socket.on('message', (message) => {
+      io.emit('message', JSON.stringify(message));
+    });
+
+    socket.on('maintenance', (maintenance) => {
+      io.emit('maintenance', JSON.stringify(maintenance));
+    });
+
+    socket.on('disconnect', () => {});
+  });
+
+  /**
+   * Listen on provided port, on all network interfaces.
+   */
+
+  // server.listen(port);
+  // server.on('error', onError);
+  // server.on('listening', onListening);
+
+  const db = require('../models');
+  db.sequelize.sync()
+    .then(() => {
+      server.listen(port);
+      server.keepAliveTimeout = (60 * 1000) + 1000;
+      server.headersTimeout = (60 * 1000) + 2000;
+      // server.on('error', onError);
+      // server.on('listening', onListening);
+    })
+    .catch(err => console.log('err', err))
+
+  /**
+   * Normalize a port into a number, string, or false.
+   */
+
+  function normalizePort(val) {
+    var port = parseInt(val, 10);
+
+    if (isNaN(port)) {
+      // named pipe
+      return val;
+    }
+
+    if (port >= 0) {
+      // port number
+      return port;
+    }
+
+    return false;
+  }
+
+  /**
+   * Event listener for HTTP server "error" event.
+   */
+
+  function onError(error) {
+    if (error.syscall !== 'listen') {
+      throw error;
+    }
+
+    var bind = typeof port === 'string'
+      ? 'Pipe ' + port
+      : 'Port ' + port;
+
+    // handle specific listen errors with friendly messages
+    switch (error.code) {
+      case 'EACCES':
+        console.error(bind + ' requires elevated privileges');
+        process.exit(1);
+        break;
+      case 'EADDRINUSE':
+        console.error(bind + ' is already in use');
+        process.exit(1);
+        break;
+      default:
+        throw error;
+    }
+  }
+
+  /**
+   * Event listener for HTTP server "listening" event.
+   */
+
+  function onListening() {
+    var addr = server.address();
+    var bind = typeof addr === 'string'
+      ? 'pipe ' + addr
+      : 'port ' + addr.port;
+    debug('Listening on ' + bind);
+  }
+}

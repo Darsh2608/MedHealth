@@ -1,0 +1,45 @@
+/*Footer */
+
+footer {
+    background: #162640;
+    padding: 35px 0px;
+    color: #FFF;
+}
+
+.media{
+    display: inline-flex;
+    margin: 5px;
+    font-size: 20px;
+    color: #FFF;
+}
+
+ul.footer-address i {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    font-size: 22px;
+}
+
+ul.footer-address li {
+    position: relative;
+    padding-left: 35px;
+}
+
+ul.footer-address li a {
+    color: #FFF;
+}
+
+.footer-widget h3 {
+    margin-bottom: 30px;
+}
+
+ul.footer-menu li a {
+    color: #FFF;
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+ul.footer-menu li a:hover{
+    text-decoration: underline;
+}
